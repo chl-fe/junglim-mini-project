@@ -1,0 +1,14 @@
+/* 공통 레이아웃 스타일 */
+h3 {
+    font-size: 72px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+h5 {
+    font-size: 20px;
+    font-weight: 500;
+}

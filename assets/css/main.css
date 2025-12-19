@@ -1,0 +1,242 @@
+/* 메인 페이지 스타일 */
+.wrap {
+    width: 100%;
+    min-width: 1400px;
+    /* position: relative; */
+}
+/* header */
+#header {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 500;
+}
+#header .inner {
+    width: 1580px;
+    display: flex;
+    align-items: center;
+    padding: 32px 0;
+    justify-content: space-between;
+    margin: 0 170px;
+}
+#header h1 img {
+    width: 169px;
+    height: 30px;
+}
+.gnb {
+    display: flex;
+    gap: 64px;
+}
+.gnb li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+#header .icon {
+    display: flex;
+    gap: 32px;
+}
+#header .icon img {
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+/* //header */
+
+#visual {
+}
+#visual .maintitle {
+    font-family: 'Inter', sans-serif;
+    z-index: 400;
+}
+#visual .maintitle span {
+    font-size: 160px;
+    font-weight: 200;
+    letter-spacing: -7%;
+    color: #fff;
+    text-align: right;
+    position: absolute;
+    top: 253px;
+    right: 100px;
+}
+#visual .maintitle h2 {
+    font-size: 270px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: -7%; /* 자간이 안먹음 */
+    position: absolute;
+    top: 353px;
+    left: 118px;
+}
+#visual .maintitle p {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -3%;
+    color: #fff;
+    position: absolute;
+    top: 646px;
+    left: 146px;
+}
+#main {
+}
+/* projects */
+#projects {
+}
+#projects .inner {
+    width: 1920px;
+    overflow: hidden;
+    display: flex;
+    gap: 64px;
+    margin: 192px 0 96px 170px;
+}
+#projects .title {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-end;
+}
+#projects .title .btxt {
+}
+#projects .title .btxt h3 {
+}
+#projects .title .btxt p {
+    display: block;
+    margin-top: 16px;
+    width: 440px;
+    color: #737373;
+    font-size: 18px;
+    font-weight: 300;
+}
+#projects .title .more span {
+    color: #afafaf;
+    font-size: 14px;
+    font-weight: 300;
+}
+#projects .list {
+}
+#projects .list ul {
+    display: flex;
+    gap: 70px;
+}
+#projects .list ul li {
+}
+#projects .list ul li img {
+    margin-bottom: 16px;
+}
+#projects .list ul li .txt {
+}
+#projects .list ul li .txt p {
+    color: #737373;
+    font-weight: 300;
+}
+/* //projects */
+/* business */
+/* //business */
+/* news */
+#news {
+}
+#news .inner {
+    width: 1920px;
+    overflow: hidden;
+    display: flex;
+    gap: 120px;
+    margin: 96px 0 96px 170px;
+}
+#news .inner .title {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-end;
+}
+#news .inner .title .btxt {
+}
+#news .inner .title .btxt h3 {
+}
+#news .inner .title .btxt p {
+    display: block;
+    margin-top: 18px;
+    width: 500px;
+    color: #737373;
+    font-size: 18px;
+    font-weight: 300;
+}
+/* 더보기 버튼 해야함 */
+#news .inner .title .more {
+}
+#news .inner .title .more span {
+    color: #afafaf;
+    font-size: 14px;
+    font-weight: 300;
+}
+#news .inner .list {
+}
+#news .inner .list ul {
+    display: flex;
+    gap: 60px;
+}
+#news .inner .list ul li {
+}
+#news .inner .list ul li img {
+    margin-bottom: 32px;
+}
+#news .inner .list ul li .txt {
+}
+#news .inner .list ul li .txt p {
+    color: #737373;
+    font-weight: 300;
+}
+#news .inner .list ul li a .txt h5 {
+}
+/* //news */
+/* culture */
+#culture {
+}
+#culture .inner {
+}
+#culture .inner .title {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    display: block;
+    width: 1750px;
+    margin-left: 170px;
+}
+#culture .inner .title .btxt {
+}
+#culture .inner .title .btxt h3 {
+}
+#culture .inner .title .btxt p {
+    display: block;
+    margin-top: 16px;
+    color: #737373;
+    font-size: 18px;
+    font-weight: 300;
+}
+#culture .inner .title .more {
+}
+#culture .inner .title .more span {
+    color: #afafaf;
+    font-size: 14px;
+    font-weight: 300;
+}
+#culture .inner .list {
+}
+#culture .inner .list ul {
+}
+#culture .inner .list ul li {
+}
+#culture .inner .list ul li img {
+}
+#culture .inner .list ul li .txt {
+}
+#culture .inner .list ul li .txt h5 {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -3%;
+}
+#culture .inner .list ul li .txt p {
+    font-size: 18px;
+    color: #737373;
+    font-weight: 300;
+}
+/* //culture */
