@@ -31,7 +31,7 @@
 .gnb li a {
     color: #fff;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
 }
 #header .icon {
     display: flex;
@@ -97,6 +97,7 @@
     align-items: flex-end;
 }
 #projects .title .btxt {
+    position: relative;
 }
 #projects .title .btxt h3 {
 }
@@ -108,10 +109,18 @@
     font-size: 18px;
     font-weight: 300;
 }
+#projects .title .more {
+    display: flex;
+    flex-direction: column;
+}
 #projects .title .more span {
+    display: block;
     color: #afafaf;
     font-size: 14px;
     font-weight: 300;
+}
+#projects .title .more img {
+    transform: translateY(-17px);
 }
 #projects .list {
 }
@@ -145,29 +154,35 @@
 }
 #news .inner .title {
     display: flex;
-    flex-direction: column;
     gap: 32px;
+    height: 145px;
     align-items: flex-end;
 }
 #news .inner .title .btxt {
+    width: 500px;
+    height: 145px;
 }
 #news .inner .title .btxt h3 {
 }
 #news .inner .title .btxt p {
     display: block;
     margin-top: 18px;
-    width: 500px;
     color: #737373;
     font-size: 18px;
     font-weight: 300;
 }
-/* 더보기 버튼 해야함 */
 #news .inner .title .more {
+    display: flex;
+    flex-direction: column;
 }
 #news .inner .title .more span {
+    display: block;
     color: #afafaf;
     font-size: 14px;
     font-weight: 300;
+    transform: translateY(17px);
+}
+#news .inner .title .more img {
 }
 #news .inner .list {
 }
@@ -193,6 +208,13 @@
 #culture {
 }
 #culture .inner {
+    width: 1920px;
+    height: 1080px;
+    padding-top: 118px;
+    padding-bottom: 299px;
+    box-sizing: border-box;
+    background-image: url(../images/culture/culture_bg.jpg);
+    background-repeat: no-repeat;
 }
 #culture .inner .title {
     display: flex;
@@ -212,23 +234,42 @@
     color: #737373;
     font-size: 18px;
     font-weight: 300;
+    margin-bottom: 32px;
 }
 #culture .inner .title .more {
+    display: flex;
+    flex-direction: column;
 }
 #culture .inner .title .more span {
+    display: block;
     color: #afafaf;
     font-size: 14px;
     font-weight: 300;
 }
+#culture .inner .title .more img {
+    transform: translateY(-17px);
+}
 #culture .inner .list {
+    width: 1920px;
+    padding-left: 1124px;
+    margin-top: 16px;
 }
 #culture .inner .list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
 }
-#culture .inner .list ul li {
+#culture .inner .list ul li a {
+    display: flex;
+    gap: 32px;
+    align-items: center;
 }
 #culture .inner .list ul li img {
 }
 #culture .inner .list ul li .txt {
+    display: block;
+    width: 450px;
+    gap: 8px;
 }
 #culture .inner .list ul li .txt h5 {
     font-family: 'Inter', sans-serif;
@@ -240,3 +281,104 @@
     font-weight: 300;
 }
 /* //culture */
+/* footer */
+#footer {
+    display: flex;
+    background-color: #2c2c2c;
+    width: 1920px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+#footer .inner {
+    display: flex;
+    gap: 430px;
+    width: 1580px;
+    margin: 0 170px;
+}
+#footer .inner .left {
+}
+#footer .inner .left img {
+    width: 342px;
+    height: 61px;
+    margin-bottom: 16px;
+}
+#footer .inner .left p {
+    color: #737373;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+#footer .inner .right {
+    display: flex;
+    flex-direction: column;
+    gap: 140px;
+    width: 790px;
+    height: 286px;
+    padding-top: 26px;
+    color: #fff;
+}
+#footer .inner .right p {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+#footer .inner .right .txt {
+    display: flex;
+    gap: 230px;
+}
+#footer .inner .right .txt a {
+    color: #fff;
+    font-size: 18px;
+}
+#footer .inner .right .txt01 {
+    /* width: 185px; */
+}
+#footer .inner .right .txt01 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+#footer .inner .right .txt01 ul .notlink {
+    font-size: 18px;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+#footer .inner .right .txt01 ul a {
+    font-weight: 500;
+}
+#footer .inner .right .txt02 {
+}
+#footer .inner .right .txt02 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+#footer .inner .right .txt02 ul a {
+}
+#footer .inner .right .txt03 {
+}
+#footer .inner .right .txt03 a {
+}
+/* //footer */
+#top {
+    display: flex;
+    flex-direction: column;
+    width: 49px;
+    align-items: center;
+    position: fixed;
+    left: 1750px;
+    bottom: 50px;
+    z-index: 700;
+}
+#top img {
+    margin-bottom: 4px;
+}
+#top span {
+    display: block;
+    color: #afafaf;
+    font-size: 14px;
+    font-weight: 300;
+}
