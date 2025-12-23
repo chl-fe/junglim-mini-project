@@ -71,7 +71,6 @@
 }
 #visual .maintitle p {
     font-size: 20px;
-    font-weight: 300;
     letter-spacing: -3%;
     color: #fff;
     position: absolute;
@@ -97,17 +96,14 @@
     align-items: flex-end;
 }
 #projects .title .btxt {
-    position: relative;
 }
-#projects .title .btxt h3 {
+#projects .title .btxt h2 {
 }
 #projects .title .btxt p {
     display: block;
     margin-top: 16px;
     width: 440px;
-    color: #737373;
     font-size: 18px;
-    font-weight: 300;
 }
 #projects .title .more {
     display: flex;
@@ -135,12 +131,108 @@
 }
 #projects .list ul li .txt {
 }
+#projects .list ul li .txt h3 {
+}
 #projects .list ul li .txt p {
-    color: #737373;
-    font-weight: 300;
 }
 /* //projects */
 /* business */
+#business {
+}
+#business .inner {
+    display: flex;
+    width: 1920px;
+    gap: 382px;
+    padding: 96px 170px;
+    box-sizing: border-box;
+}
+#business .inner .imglist {
+    /* transform: translateY(-410px); */
+}
+#business .inner .imglist li {
+    width: 395px;
+    height: 540px;
+}
+#business .inner .imglist li:hover .txt {
+    transition: 1s;
+    opacity: 0;
+}
+#business .inner .imglist li:hover a + img {
+    transition: 1s;
+    opacity: 0;
+}
+/* #business .inner .imglist li:hover a img {
+    transition: 1s;
+    transform: scale(1.1);
+} */
+#business .inner .imglist .txt {
+    display: flex;
+    width: 395px;
+    height: 130px;
+    flex-direction: column;
+    padding: 0 32px;
+    gap: 8px;
+    box-sizing: border-box;
+    transform: translateY(540px);
+    z-index: 500;
+    position: relative;
+}
+#business .inner .imglist .txt h3 {
+    font-size: 24px;
+}
+#business .inner .imglist .txt p {
+}
+#business .inner .imglist ul {
+    display: flex;
+    flex-direction: column;
+}
+#business .inner .imglist .list1 {
+    display: flex;
+}
+#business .inner .imglist .list2 {
+    display: flex;
+}
+#business .inner .imglist img {
+    z-index: 0;
+}
+#business .inner .imglist .off {
+    transform: translateY(-540px);
+}
+#business .inner .title {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-end;
+    height: 1080px;
+    padding-bottom: 64px;
+    gap: 32px;
+    justify-content: center;
+}
+#business .inner .title .btxt {
+    position: relative;
+}
+#business .inner .title .btxt h2 {
+}
+#business .inner .title .btxt p {
+    display: block;
+    margin-top: 16px;
+    width: 440px;
+    font-size: 18px;
+}
+#business .inner .title .more {
+    display: flex;
+    flex-direction: column;
+}
+#business .inner .title .more span {
+    display: block;
+    color: #afafaf;
+    font-size: 14px;
+    font-weight: 300;
+}
+#business .inner .title .more img {
+    transform: translateY(-17px);
+}
+
 /* //business */
 /* news */
 #news {
@@ -162,14 +254,12 @@
     width: 500px;
     height: 145px;
 }
-#news .inner .title .btxt h3 {
+#news .inner .title .btxt h2 {
 }
 #news .inner .title .btxt p {
     display: block;
     margin-top: 18px;
-    color: #737373;
     font-size: 18px;
-    font-weight: 300;
 }
 #news .inner .title .more {
     display: flex;
@@ -198,10 +288,10 @@
 #news .inner .list ul li .txt {
 }
 #news .inner .list ul li .txt p {
-    color: #737373;
-    font-weight: 300;
+    display: block;
+    margin-bottom: 8px;
 }
-#news .inner .list ul li a .txt h5 {
+#news .inner .list ul li a .txt h3 {
 }
 /* //news */
 /* culture */
@@ -226,14 +316,12 @@
 }
 #culture .inner .title .btxt {
 }
-#culture .inner .title .btxt h3 {
+#culture .inner .title .btxt h2 {
 }
 #culture .inner .title .btxt p {
     display: block;
     margin-top: 16px;
-    color: #737373;
     font-size: 18px;
-    font-weight: 300;
     margin-bottom: 32px;
 }
 #culture .inner .title .more {
@@ -269,16 +357,15 @@
 #culture .inner .list ul li .txt {
     display: block;
     width: 450px;
-    gap: 8px;
 }
-#culture .inner .list ul li .txt h5 {
+#culture .inner .list ul li .txt h3 {
     font-family: 'Inter', sans-serif;
     letter-spacing: -3%;
 }
 #culture .inner .list ul li .txt p {
     font-size: 18px;
-    color: #737373;
-    font-weight: 300;
+    display: block;
+    margin-top: 8px;
 }
 /* //culture */
 /* footer */
@@ -304,10 +391,8 @@
     margin-bottom: 16px;
 }
 #footer .inner .left p {
-    color: #737373;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
-    font-weight: 300;
 }
 #footer .inner .right {
     display: flex;
@@ -322,6 +407,7 @@
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 500;
+    color: #fff;
 }
 #footer .inner .right .txt {
     display: flex;
